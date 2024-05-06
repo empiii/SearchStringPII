@@ -41,7 +41,7 @@ class BurpExtender(IBurpExtender, IScannerCheck, ITab):
         for grep_string in self.grep_strings_list:
             matches = self._get_matches(baseRequestResponse.getResponse(), bytearray(grep_string, 'utf-8'))
             if (len(matches) > 0):
-                print("Match found for string:", grep_string)
+                print("Match found for string:", grep_string.encode('utf-8'))
                 issue = CustomScanIssue(
                     baseRequestResponse.getHttpService(),
                     self._helpers.analyzeRequest(baseRequestResponse).getUrl(),
