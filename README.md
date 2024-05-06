@@ -41,4 +41,3 @@ Considerações sobre o Código
 •	As strings sensíveis são salvas e carregadas a partir das configurações da extensão.
 •	A verificação passiva é realizada iterando sobre as strings sensíveis e procurando por correspondências nas respostas HTTP.
 Esta documentação fornece uma visão geral do funcionamento da extensão e como ela pode ser usada para identificar strings sensíveis em solicitações e respostas HTTP.
-![image](https://github.com/empiii/SearchStringPII/assets/47393806/c747ba0f-b8e8-4c31-a842-351782a925d7)
