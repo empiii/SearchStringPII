@@ -7,15 +7,15 @@ Esta extensão para o Burp Suite permite pesquisar padrões numéricos e strings
 •	Integração com o Burp Suite para análise de segurança de aplicativos web.
 
 **Como instalar**
-	**1.	Instalação:**
-	•	Download Jython Standalone 2.7.3
-	•	Configurar o apontamento Jython em Settings > Extensions > Python environment Location
-	•	Download do SearchStringPII.py 
-	•	Add extensão dentro do Burp Suit in Burp Extensions, add
-	•	Extension Details > Extension Type -> Python & Select archive. 
-	•	Certifique-se de que a extensão esteja ativada.
+*1.	Instalação:*
+•	Download Jython Standalone 2.7.3
+•	Configurar o apontamento Jython em Settings > Extensions > Python environment Location
+•	Download do SearchStringPII.py 
+•	Add extensão dentro do Burp Suit in Burp Extensions, add
+•	Extension Details > Extension Type -> Python & Select archive. 
+•	Certifique-se de que a extensão esteja ativada.
 
-2.	Configuração:
+3.	Configuração:
 •	Na guia "Settings", adicione as strings sensíveis que deseja pesquisar ou upload da wordlist de sua preferência.
 •	Clique em "Save" para salvar as strings sensíveis adicionadas.
 •	Recarregue o SearchStringPII.py, clicando no boxe em Burp Extensions
