@@ -6,7 +6,7 @@ Esta extensão para o Burp Suite permite pesquisar padrões numéricos e strings
 •	Interface de usuário para adicionar, salvar e exportar strings sensíveis como Wordlist. 
 •	Integração com o Burp Suite para análise de segurança de aplicativos web.
 
-# Como instalar
+**Como instalar**
 # 	1.	Instalação:
 	•	Download Jython Standalone 2.7.3
 	•	Configurar o apontamento Jython em Settings > Extensions > Python environment Location
