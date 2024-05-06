@@ -1,17 +1,19 @@
 ## Search String PII
 Esta extensão para o Burp Suite permite pesquisar padrões numéricos e strings sensíveis em solicitações e respostas HTTP, identificando potencialmente informações pessoais identificáveis (PII) como CPFs (Cadastro de Pessoas Físicas) no tráfego de rede – Request/Response
-Funcionalidades Principais
+
+# Funcionalidades Principais
 •	Pesquisa passiva por strings sensíveis em respostas HTTP.
 •	Interface de usuário para adicionar, salvar e exportar strings sensíveis como Wordlist. 
 •	Integração com o Burp Suite para análise de segurança de aplicativos web.
-Como instalar
-1.	Instalação:
-•	Download Jython Standalone 2.7.3
-•	Configurar o apontamento Jython em Settings > Extensions > Python environment Location
-•	Download do SearchStringPII.py 
-•	Add extensão dentro do Burp Suit in Burp Extensions, add
-•	Extension Details > Extension Type -> Python & Select archive. 
-•	Certifique-se de que a extensão esteja ativada.
+
+# Como instalar
+# 	1.	Instalação:
+	•	Download Jython Standalone 2.7.3
+	•	Configurar o apontamento Jython em Settings > Extensions > Python environment Location
+	•	Download do SearchStringPII.py 
+	•	Add extensão dentro do Burp Suit in Burp Extensions, add
+	•	Extension Details > Extension Type -> Python & Select archive. 
+	•	Certifique-se de que a extensão esteja ativada.
 
 2.	Configuração:
 •	Na guia "Settings", adicione as strings sensíveis que deseja pesquisar ou upload da wordlist de sua preferência.
