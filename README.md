@@ -56,9 +56,3 @@ Esta documentação fornece uma visão geral do funcionamento da extensão e com
 https://github.com/empiii/SearchStringPII/assets/47393806/86169585-b3e4-4de7-9403-473f9d9d7cb2
 
 
-
-
-
-
-https://github.com/empiii/SearchStringPII/assets/47393806/7ca3f79f-0365-4eeb-a3b6-d10586033ed2
-
