@@ -1,5 +1,7 @@
 ## Search String PII
-Esta extensão para o Burp Suite permite pesquisar padrões numéricos e strings sensíveis em solicitações e respostas HTTP, identificando potencialmente informações pessoais identificáveis (PII) como CPFs (Cadastro de Pessoas Físicas) no tráfego de rede – Request/Response
+Esta extensão para o Burp Suite permite pesquisar padrões numéricos e strings sensíveis em solicitações e respostas HTTP, identificando potencialmente informações pessoais identificáveis (PII) como CPFs (Cadastro de Pessoas Físicas) no tráfego de rede – Request/Response.
+
+_Não se limite à pesquisa de CPF; o script pode buscar qualquer palavra desejada em qualquer resposta HTTP. A lógica por trás da Extensão é que ele analise de forma passiva todas as respostas que passam pelo Proxy Burp Suite, utilizando a correspondência da palavra sensível previamente configurada na extensão dentro do campo Settings._
 
 ## Funcionalidades Principais
 - Pesquisa passiva por strings sensíveis em respostas HTTP.
