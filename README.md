@@ -50,3 +50,15 @@ doPassiveScan: Método que executa a verificação passiva em uma solicitação 
 - A verificação passiva é realizada iterando sobre as strings sensíveis e procurando por correspondências nas respostas HTTP.
 
 Esta documentação fornece uma visão geral do funcionamento da extensão e como ela pode ser usada para identificar strings sensíveis em solicitações e respostas HTTP.
+
+# PoC
+
+https://github.com/empiii/SearchStringPII/assets/47393806/86169585-b3e4-4de7-9403-473f9d9d7cb2
+
+
+
+
+
+
+https://github.com/empiii/SearchStringPII/assets/47393806/7ca3f79f-0365-4eeb-a3b6-d10586033ed2
+
